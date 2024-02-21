@@ -1,0 +1,618 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+:root {
+    --whitecolor: white;
+    --blackcolor: black;
+    --maincolor: #222;
+
+}
+
+body {
+
+    font-family: 'Poppins', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;;
+}
+
+
+
+
+
+
+.icons-home {
+
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+
+}
+
+.icons-home a {
+
+    color: var(--whitecolor);
+    text-decoration: none;
+
+}
+
+.icons {
+
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+
+}
+
+#home {
+    background-image: url(images/bg.jpg);
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+}
+
+#home .icons {
+
+    background-color: rgba(0, 0, 0, 0.3);
+
+}
+
+.content {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100vh;
+    width: 100%;
+}
+
+.content h5{
+
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.content h1 {
+    font-weight: 200px;
+   
+}
+
+@media (min-width:1100px) {
+
+
+    h1{
+        font-size: 3rem;
+    }
+
+    
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: var(--whitecolor);
+}
+
+.content h1::after {
+
+    content: "|";
+    animation-name: content-slider;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    font-weight: 400px;
+}
+
+
+@keyframes content-slider {
+
+    0% {
+        content: "|";
+    }
+
+    2% {
+        content: "L |";
+    }
+
+    4% {
+        content: "La |";
+    }
+
+    6% {
+        content: "Lar |";
+    }
+
+    8% {
+        content: "Larr |";
+    }
+
+    10% {
+        content: "Larry |";
+    }
+
+    12% {
+        content: "Larry D |";
+    }
+
+    14% {
+        content: "Larry Da |";
+    }
+
+    16% {
+        content: "Larry Dan |";
+    }
+
+    18% {
+        content: "Larry Dani |";
+    }
+
+    20% {
+        content: "Larry Danie |";
+    }
+
+    22% {
+        content: "Larry Daniel |";
+    }
+
+    24% {
+        content: "Larry Daniels |";
+    }
+
+    26% {
+        content: "Larry Daniel|";
+    }
+
+    28% {
+        content: "Larry Danie|";
+    }
+
+    30% {
+        content: "Larry Dani|";
+    }
+
+    32% {
+        content: "Larry Dan|";
+    }
+
+    34% {
+        content: "Larry Da|";
+    }
+
+    36% {
+        content: "Larry D|";
+    }
+
+    38% {
+        content: "Larry |";
+    }
+
+    40% {
+        content: "Larr|";
+    }
+
+    42% {
+        content: "Lar|";
+    }
+
+    44% {
+        content: "La|";
+    }
+
+    46% {
+        content: "L|";
+    }
+
+    48% {
+        content: "|";
+    }
+
+    50% {
+        content: "De|";
+    }
+
+    52% {
+        content: "Dev|";
+    }
+
+    54% {
+        content: "Deve|";
+    }
+
+    56% {
+        content: "Devel|";
+    }
+
+    58% {
+        content: "Develo|";
+    }
+
+    60% {
+        content: "Develop|";
+    }
+
+    62% {
+        content: "Develope|";
+    }
+
+    64% {
+        content: "Develop|";
+    }
+
+    66% {
+        content: "Develo|";
+    }
+
+    68% {
+        content: "Devel|";
+    }
+
+    70% {
+        content: "Deve|";
+    }
+
+    72% {
+        content: "Dev|";
+    }
+
+    74% {
+        content: "De|";
+    }
+
+    76% {
+        content: "D|";
+    }
+
+    78% {
+        content: "De|";
+    }
+
+    80% {
+        content: "Des|";
+    }
+
+    81% {
+        content: "Desi|";
+    }
+
+    82% {
+        content: "Desig|";
+    }
+
+    83% {
+        content: "Design|";
+    }
+
+    84% {
+        content: "Designe|";
+    }
+
+    85% {
+        content: "Designer|";
+    }
+
+    86% {
+        content: "Designe|";
+    }
+
+    87% {
+        content: "Design|";
+    }
+
+    88% {
+        content: "Design|";
+    }
+
+    89% {
+        content: "Desig|";
+    }
+
+    91% {
+        content: "Desig|";
+    }
+
+    92% {
+        content: "Desi|";
+    }
+
+    93% {
+        content: "Desi|";
+    }
+
+    94% {
+        content: "Des|";
+    }
+
+    95% {
+        content: "De|";
+    }
+
+    96% {
+        content: "D|";
+    }
+
+}
+
+
+.about-content-right h3 {
+    color: var(--maincolor);
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.about-content-right button {
+
+    padding: 10px 30px;
+    border: 1px solid #1c1c1c;
+    border-radius: 5px;
+    font-size: 13px;
+}
+
+.about-content-right .btn1 {
+
+    background-color: var(--maincolor);
+    color: var(--whitecolor);
+    transition: 0.5s all;
+}
+
+
+.about-content-right .btn1:hover {
+
+    background-color: transparent;
+    color: var(--maincolor);
+
+}
+
+.about-content-right .btn2 {
+
+    transition: 0.5s all;
+}
+
+.about-content-right .btn2:hover {
+
+    background-color: var(--maincolor);
+    color: white;
+
+
+}
+
+
+.progress {
+
+    height: 1.8rem !important;
+    border-radius: 5px;
+    background: #f7f7f7;
+    box-shadow: 0px 2px 7px rgb(0 0 0 / 15%) inset;
+
+}
+
+.progress p {
+    margin: 0;
+}
+
+.progress-bar {
+
+    background-color: var(--maincolor);
+}
+
+.sec-title h3 {
+
+    font-weight: 900;
+    font-size: 40px;
+    z-index: 1;
+}
+
+
+.sec-title h3::after {
+
+    content: "";
+    background-image: url(images/dots.png);
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    bottom: -15px;
+    left: 0;
+    z-index: -1;
+}
+
+#services {
+
+    background: #f7f7f7;
+}
+
+.services-inner i {
+    transition: 0.5s all;
+}
+
+.services-inner h6 {
+
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.services-inner:hover i {
+
+    background-color: var(--maincolor) !important;
+
+    color: var(--whitecolor);
+
+}
+
+
+
+.nav-tabs {
+    border: none;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: var(--maincolor);
+    color: var(--whitecolor);   
+}
+
+
+.nav-tabs .nav-link {
+    color: var(--maincolor);
+   
+}
+
+.nav-tabs .nav-link:hover{
+    border: solid 1px var(--maincolor)
+}
+
+
+
+
+
+.img-layer {
+
+    border: 4px solid rgb(151, 147, 147);
+    background-color: var(--whitecolor);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: 0.5s all;
+}
+
+.layer-icons i {
+    background-color: var(--maincolor);
+    color: var(--whitecolor);
+    transition: 0.5s all;
+}
+
+.layer-icons i:hover {
+
+    color: var(--maincolor);
+    background-color: var(--whitecolor);
+}
+
+.works-img:hover .img-layer {
+
+    opacity: 1;
+
+}
+
+#clients {
+    background-color: #f7f7f7;
+}
+
+.carousel-indicators .active {
+
+    width: 0.7rem;
+    height: 0.7rem;
+    border-radius: 50%;
+    background-color: #869791 !important;
+
+}
+
+.carousel-indicators [data-bs-target] {
+
+    width: 0.7rem;
+    height: 0.7rem;
+    border-radius: 50%;
+    background-color: #D6D6D6;
+    transition: 0.5s all;
+}
+
+.carousel-indicators [data-bs-target]:hover {
+
+    background-color: #869791;
+
+}
+
+.score h3 {
+    font-weight: 900;
+}
+
+.score p {
+
+    font-weight: 600;
+    font-size: 15px;
+    color: #748182;
+
+}
+
+#blog {
+    background-color: #f7f7f7;
+}
+
+.carousel-item-inner .card-img {
+    overflow: hidden;
+}
+
+.carousel-item-inner .card img {
+    transition: 1s all;
+}
+
+.carousel-item-inner .card img:hover {
+
+    transform: scale(1.2);
+
+}
+.carousel-item-inner .card-body h4 {
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+
+#contacts .contact i {
+    transition: 0.5s all;
+}
+
+#contacts .contact:hover i {
+
+    background-color: var(--maincolor) !important;
+
+    color: var(--whitecolor);
+
+}
+
+
+#contacts button {
+    padding: 10px 40px;
+    border: 1px solid #1c1c1c;
+    border-radius: 5px;
+    font-size: 13px;
+}
+
+#contacts .btn {
+
+    background-color: var(--maincolor);
+    color: var(--whitecolor);
+    transition: 0.5s all;
+
+}
+
+#contacts .btn:hover {
+
+    background-color: transparent;
+    color: var(--maincolor);
+
+}
+
+.form-control:focus {
+    border-color: transparent !important;
+    box-shadow: none;
+}
+
+.form-control {
+    transition: none;
+    border: none;
+    background-color: #f4f4f4;
+}
+
+.form-control:focus {
+
+    background-color: #f4f4f4;
+
+}
+
+.copyrights {
+    background-color: var(--maincolor);
+}
+
+.copyrights-content {
+
+    color: #748182;
+}
